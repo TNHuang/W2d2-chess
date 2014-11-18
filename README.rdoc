@@ -1,0 +1,38 @@
+Chess!
+
+start playing by running the following commands in the ruby terminal:
+
+===============
+
+load 'Game.rb'
+g = Game.new
+g.play
+
+===============
+
+then you move the piece by starting coordinate and end coordinate in the format of (start-y, start-x) (end-y, end-x)
+
+    0   1   2   3   4   5   6   7
+  +---+---+---+---+---+---+---+---+
+0 | ♖ | ♘ | ♗ | ♕ | ♔ | ♗ | ♘ | ♖ | 0
+  +---+---+---+---+---+---+---+---+
+1 |   | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ | 1
+  +---+---+---+---+---+---+---+---+
+2 | ♙ |   |   |   |   |   |   |   | 2
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   |   |   |   |   | 3
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   | 4
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   | 5
+  +---+---+---+---+---+---+---+---+
+6 |♟ | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ | 6
+  +---+---+---+---+---+---+---+---+
+7 | ♜ | ♞ | ♝ | ♛ | ♚ | ♝ | ♞ | ♜ | 7
+  +---+---+---+---+---+---+---+---+
+    0   1   2   3   4   5   6   7
+
+for example i want to move the pawn infront of the left black rook
+you can enter the following:
+(6,0)(5,0)
+or you can simply enter 6050, the program will parse it using regular expression
