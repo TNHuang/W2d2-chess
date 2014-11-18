@@ -35,4 +35,5 @@ then you move the piece by starting coordinate and end coordinate in the format 
 for example i want to move the pawn infront of the left black rook
 you can enter the following:
 (6,0)(5,0)
-or you can simply enter 6050, the program will parse it using regular expression
+Then press enter
+or you can simply enter 6050, the program will parse it using regular expression to find the first 4 numbers in the string
